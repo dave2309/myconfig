@@ -1,0 +1,129 @@
+Xft.antialias: 1
+Xft.autohint: 0
+Xft.hinting: 1
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintslight
+! Xft.hintstyle: hintnone
+! Xft.rgba: rgb
+Xft.rgba: none
+!Xft.dpi: 118
+
+URxvt.meta8: false
+URxvt.perl-ext-common:      default,clipboard,url-select,keyboard-select
+URxvt.url-select.launcher:  chromium
+URxvt.url-select.underline: true
+URxvt.keysym.M-u:           perl:url-select:select_next
+URxvt.keysym.M-Escape:      perl:keyboard-select:activate
+URxvt.keysym.M-s:           perl:keyboard-select:search
+
+*URxvt*keysym.M-Down:       \033[1;3B
+*URxvt*keysym.M-Up:         \033[1;3A
+*URxvt*keysym.M-Left:       \033[1;3D
+*URxvt*keysym.M-Right:      \033[1;3C
+*URxvt*keysym.S-M-Up:       \033[1;4A
+*URxvt*keysym.S-M-Down:     \033[1;4B
+*URxvt*keysym.S-M-Right:    \033[1;4C
+*URxvt*keysym.S-M-Left:     \033[1;4D
+*URxvt*keysym.C-Page_Up:    \033[5;5~
+*URxvt*keysym.C-Page_Down:  \033[6;5~
+*URxvt*keysym.C-Up:         \033[1;5A
+*URxvt*keysym.C-Down:       \033[1;5B
+*URxvt*keysym.C-Right:      \033[1;5C
+*URxvt*keysym.C-Left:       \033[1;5D
+
+URxvt*.urgentOnBell: true
+URxvt*.geometry: 84x26
+! URxvt*.depth: 32
+! URxvt*.background: [80]#000000
+! URxvt*.background: #151724
+URxvt*.background: #020206
+URxvt*.borderLess: false
+URxvt*.borderWidth: 0
+URxvt*.internalBorder: 0
+URxvt*.externalBorder: 0
+!URxvt*tranparent: true
+!URxvt*shading: 110
+URxvt*.scrollBar: false
+URxvt*.scrollTtyOutput: false
+URxvt*.scrollWithBuffer: true
+URxvt*.scrollTtyKeypress: true
+! Fonts
+urxvt*font: xft:Monaco for Powerline:size=7
+! URxvt*.boldFont: xft:Monofur:size=8:embolden=false:bold
+! URxvt*.italicFont: xft:Monofur:size=8:embolden=false:italic
+! URxvt.font: xft:monofur:size=8
+! urxvt*font: xft:monofur for\ Powerline:pixelsize=10
+! URxvt.font: xft:monofur for Powerline:size=8
+! URxvt.boldFont: xft:monofur for Powerline:size=8:embolden=false:bold
+! URxvt.italicFont: xft:monofur for Powerline:size=8:embolden=false:italic
+! URxvt*font: xft:inconsolata:size=8:antialias=true
+!URxvt*font: -*-terminus-medium-*-*-*-*-140-*-*-*-*-iso8859-1
+!URxvt*font: -*-dina-medium-r-normal-*-10-*-*-*-*-*-*-*
+URxvt*.loginShell: true
+URxvt*.perl-ext-common:  default,matcher
+URxvt*.urlLauncher:      /usr/bin/firefox
+URxvt*.matcher.button:   1
+! Mashup colors
+*foreground:        #B2A191
+*background:        #000000
+*borderColor:       #000000
+*cursorColor:       #C7A551
+!black
+*color0:            #202020
+*color8:            #404040
+!red
+*color1:            #BF3F34
+*color9:            #FF6C5F
+!green
+*color2:            #707D22
+*color10:           #B8CA4B
+!yellow
+*color3:            #BF7A29
+*color11:           #C7A551
+!blue
+*color4:            #627A92
+*color12:           #95B9DE
+!magenta
+*color5:            #75507B
+*color13:           #AD7FA8
+!cyan
+*color6:            #757978
+*color14:           #9FA590
+!white
+*color7:            #B2A191
+*color15:           #E8D0C3
+
+! ! Black
+! *color0:   #111111
+! *color8:   #666666
+!
+! ! Red
+! *color1:   rgb:d3/62/65
+! *color9:   rgb:ef/81/71
+!
+! ! Green
+! *color2:   #aece91
+! *color10:  #cfefb3
+!
+! ! Yellow
+! *color3:   rgb:e7/e1/8c
+! *color11:  rgb:ff/f7/96
+!
+! ! Blue
+! *color4:   #5297cf
+! *color12:  #74b8ef
+!
+! ! Magenta
+! *color5:   #963c59
+! *color13:  #b85e7b
+!
+! ! Cyan
+! *color6:   #5E7175
+! *color14:  #A3BABF
+!
+! ! White
+! *color7:   #bebebe
+! *color15:  #ffffff
+!
+! vim: et sw=2 syn=xdefaults
+
